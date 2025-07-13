@@ -1,0 +1,68 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Service Cards */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Package Cards */
+.packages-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.package-card {
+  width: 280px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.package-card:hover {
+  transform: scale(1.05);
+}
+
+.package-regular {
+  background-color: rgba(178, 34, 34, 0.9);
+}
+
+.package-premium {
+  background-color: rgba(128, 0, 128, 0.9);
+}
+
+.package-platinum {
+  background: linear-gradient(135deg, #d4af37, #f5e084);
+  color: black;
+}
