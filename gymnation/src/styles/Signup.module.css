@@ -1,0 +1,40 @@
+
+.signupPage {
+  min-height: 100vh;
+  background: url('../assets/images/background.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupForm {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.signupForm h2 {
+  margin-bottom: 20px;
+}
+
+.signupForm input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.signupForm button {
+  padding: 12px;
+  width: 100%;
+  background-color: #0072ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

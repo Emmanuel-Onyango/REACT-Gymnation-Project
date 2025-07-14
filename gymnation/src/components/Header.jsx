@@ -1,13 +1,20 @@
-export default function Header() {
+// src/components/Header.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Header = () => {
   return (
     <header>
-      <div className="logo">GYM<span className="green">N</span><span className="red">ATION</span></div>
+      <div className="logo">
+        <Link to="/">GYM<span className="green">N</span><span className="red">ATION</span></Link>
+      </div>
       <nav>
-        <a href="/">Home</a><br></br>
-        <a href="/login">Login</a>
-        
-        
+        <Link to="/">Home</Link>
+        <Link to="/signup">Sign Up</Link>
+        <Link to="/login">Log In</Link>
       </nav>
     </header>
   );
-}
+};
+
+export default Header;

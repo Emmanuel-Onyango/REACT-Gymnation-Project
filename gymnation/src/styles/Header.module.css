@@ -1,0 +1,25 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}

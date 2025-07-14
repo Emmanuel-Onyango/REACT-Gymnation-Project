@@ -1,0 +1,106 @@
+
+.hero {
+  background: url('../assets/images/figma\ image.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.ctaButton {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.servicesSection {
+  padding: 60px 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.serviceCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.packagesSection {
+  padding: 60px 40px;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+.packagesContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.packageCard {
+  width: 280px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.packageCard:hover {
+  transform: scale(1.05);
+}
+
+.packageRegular {
+  background-color: rgba(178, 34, 34, 0.9);
+}
+
+.packagePremium {
+  background-color: rgba(128, 0, 128, 0.9);
+}
+
+.packagePlatinum {
+  background: linear-gradient(135deg, #d4af37, #f5e084);
+  color: black;
+}
+
+.siteFooter {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footerContainer h3 {
+  margin-bottom: 20px;
+}
+
+.footerContainer p {
+  margin: 10px 0;
+}

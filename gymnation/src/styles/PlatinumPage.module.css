@@ -1,0 +1,159 @@
+
+.platinumHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.platinumHeader h2 {
+  font-size: 1.5rem;
+}
+
+.platinumHeader h2 span {
+  font-weight: bold;
+}
+
+.logoutBtn {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  flex-grow: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  align-self: flex-start;
+}
+
+.btn:hover {
+  background: #1f2937;
+}
+
+.shopImages {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.shopImages img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.shopImages img:hover {
+  transform: scale(1.05);
+}
+
+.coachImages {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.coachCard {
+  width: 250px;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.coachCard:hover {
+  transform: scale(1.05);
+}
+
+.coachCard img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.coachCard h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.coachCard p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+@media (min-width: 1024px) {
+  .coachImages {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .card h2 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.95rem;
+  }
+}
